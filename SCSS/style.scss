@@ -1,7 +1,9 @@
-@import 'reset';
-@import 'fonts';
-@import 'vars';
-@import 'base';
+@import './reset';
+@import './fonts/';
+@import './vars';
+@import './base';
 
-// blocks 
+@import 'components/btn';
+
+@import 'blocks/header';
 @import 'blocks/main-section';

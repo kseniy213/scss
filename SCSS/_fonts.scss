@@ -1,15 +1,13 @@
 @font-face {
-    font-family: 'proxima_novaregular';
-    src: url ('../fonts/proxima_nova_font-webfont.woff2') format('woff2'),
+    font-family: 'proxima_novaregular', sans-serif;
+    src: url('/fonts/proxima_novaregular') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'averta_demo_pe_cutted_demoRg';
-    src: url ('../fonts/averta-demo-pe-cutted-demo-regular-webfont.woff2') format('woff2'),
+    src: url('/fonts/averta_demo_pe_cutted_demoRg') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }

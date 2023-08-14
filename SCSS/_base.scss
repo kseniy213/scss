@@ -1,4 +1,11 @@
 body{
-    background: green;
-    font-family: 'proxima_novaregular';
+    font-family: $ff-main;
 }
+
+.container{
+    max-width: $container;
+    margin-inline: auto;
+    text-decoration: none;
+}
+
+

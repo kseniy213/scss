@@ -1,0 +1,37 @@
+.main-section {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        justify-content: space-between;
+        padding: 120px;
+        padding-top: 42px;
+
+    
+
+
+    &__title {
+        color: $black;
+        font-family: $ff-main;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 40px; 
+    }
+
+    &__desc {
+        width: 471px;
+        color: $dark;
+        font-family: $ff-main;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 33px;
+    }
+
+    &__image {
+        max-width: 703px;
+        max-height: 512px;
+    }
+}
