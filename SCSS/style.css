@@ -155,9 +155,7 @@ body {
           display: none; } }
 
 .social {
-  padding-left: 120px;
-  align-items: center;
-  justify-content: space-between; }
+  padding-left: 120px; }
   .social__title {
     color: #000;
     font-family: "proxima_novaregular", sans-serif;
