@@ -16,6 +16,10 @@
     &._primary{
         background: $blue;
         color: $white ;
+        transition: $transition;
+        &:hover{
+            background: darken($blue , 10%);
+        }
     }
 }
 

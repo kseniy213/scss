@@ -2,11 +2,23 @@
         display: flex;
         align-items: center;
         gap: 26px;
+        margin-bottom: 141px;
         justify-content: space-between;
         padding: 120px;
         padding-top: 42px;
 
-    
+        @include tablet {
+            align-items: stretch;
+            flex-direction: column-reverse;
+            padding: 0px;
+        }
+
+        
+
+    &__info{
+        max-width: 471px;
+        z-index: 2;
+    }
 
 
     &__title {
@@ -20,7 +32,6 @@
     }
 
     &__desc {
-        width: 471px;
         color: $dark;
         font-family: $ff-main;
         font-size: 16px;
@@ -31,7 +42,39 @@
     }
 
     &__image {
-        max-width: 703px;
-        max-height: 512px;
+        position: relative;
+        
+
+        img{
+            border-radius: 0px 0px 0px 200px;
+            position: relative;
+            width: 100%;
+
+            @include mobile{
+                align-items: stretch;
+            }
+
+            @include tablet {
+                position: relative;
+                width: 100%;
+                border-radius: 12px;
+            }
+        }
+
+        &::before{
+            bottom: -101px;
+            right: 0px;
+            position: absolute;
+            content: '';
+            display: block;
+            width: 178px;
+            height: 178px;
+            border-radius: 0px 0px 100px 0px;
+            background: #FFF5DB;
+            @include mobile{
+                display: none;
+            }
+        }
+    
     }
 }

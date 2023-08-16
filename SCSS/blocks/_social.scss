@@ -1,0 +1,29 @@
+.social {
+    padding-left: 120px;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+        color: #000;
+        font-family: $ff-main;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 17px;
+    }
+
+    &__desc {
+        color: #757575;
+        font-family: $ff-main;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    &__logo {
+        gap: 120px;
+        align-items: center;
+    }
+}
