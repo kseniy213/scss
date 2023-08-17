@@ -5,7 +5,7 @@
 @import './vars';
 @import './mixins';
 @import './base';
-@import './btn';
+@import './btn'; 
 
 
 @import '../blocks/header';
@@ -17,5 +17,7 @@
 @import '../blocks/contact';
 @import '../blocks/footer';
 
+ 
+@import '../../utils/carousel';
 
 
