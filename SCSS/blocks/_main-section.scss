@@ -1,11 +1,9 @@
 .main-section {
-        display: flex;
-        align-items: center;
         gap: 26px;
-        margin-bottom: 141px;
-        justify-content: space-between;
+        margin-bottom: 111px;
         padding: 120px;
         padding-top: 42px;
+        
 
         @include tablet {
             align-items: stretch;

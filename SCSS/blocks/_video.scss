@@ -1,0 +1,35 @@
+.video {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 140px;
+
+    &__img {
+        border-radius: 32px;
+        width: 550px;
+        height: 372px;
+    }
+
+    &__info {
+    }
+
+    &__title {
+        width: 468px;
+        color: $black;
+        font-family: $ff-main;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 30px;
+    }
+
+    &__desc {
+        width: 532px;
+        color: $dark;
+        font-family: $ff-main;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+}

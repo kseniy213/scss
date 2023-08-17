@@ -1,0 +1,65 @@
+.client {
+    padding-bottom: 148px;
+
+    &__head{
+
+    }
+
+    &__title {
+        padding-top: 181px;
+        color: $black;
+        text-align: center;
+        font-family: $ff-main;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__desc {
+        padding-top: 17px;
+        padding-bottom: 113px;
+        color: $dark;
+        text-align: center;
+        font-family: $ff-main;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    &__info {
+    
+    }
+
+    &__img-und {
+        border-radius: 500px 0px 500px 500px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    }
+
+
+    &__info-title {
+        color: $black;
+        text-align: left;
+        font-family: $ff-main;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__info-desc {
+        width: 412px;
+        color: $dark;
+        text-align: left;
+        font-family: $ff-main;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; 
+    }
+
+    &__info-img {
+    }
+}

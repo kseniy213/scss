@@ -1,5 +1,23 @@
-.social {
-    padding-left: 120px;
+.social {  
+    margin: 0 auto;
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 120px;
+    
+    
+    &__info {
+        // padding: 120px;
+    }
+
+    &__logos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
 
     &__title {
         color: #000;
@@ -21,7 +39,6 @@
     }
 
     &__logo {
-        gap: 120px;
-        align-items: center;
+        
     }
 }

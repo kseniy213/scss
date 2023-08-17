@@ -1,0 +1,56 @@
+.contact {
+    border-radius: 75px;
+    background: #F4F9FF;
+    width: 1197px;
+    height: 292px;
+    flex-shrink: 0;
+
+    &__info {
+        padding-left: 92px;
+    }
+
+    &__title {
+        color: $black;
+        font-family: $ff-main;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 17px;
+    }
+
+    &__desc {
+        color: $dark;
+        font-family: $ff-main;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; 
+    }
+
+    &__sms {
+        width: 479px;
+        height: 80px;
+        flex-shrink: 0;
+        border-radius: 60px;
+        background: #FFF;
+        padding-left: 34px;
+    }
+
+    &__message {
+        color: $dark;
+        font-family: $ff-main;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__btn {
+        padding-right: 10px;
+    }
+
+    &__btn-und {
+        
+    }
+}
